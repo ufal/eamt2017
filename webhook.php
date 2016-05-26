@@ -1,6 +1,7 @@
 <?php
 	$res = array(
-		'res'=>'nok'
+		'res'=>'nok',
+		'pay'=>$_POST['payload']['ref']
 	);
 
 	if (@$_POST['payload'] && $_POST['payload']['ref'] == 'refs/heads/production') {
