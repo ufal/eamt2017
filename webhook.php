@@ -1,6 +1,6 @@
 <?php
 	$res = array(
-		'res'=>'nok';
+		'res'=>'nok'
 	);
 
 	if (@$_POST['payload'] ) {
