@@ -132,11 +132,20 @@ header {
 	h2 {
 		// font-size: 48pt;
 		font-size: 5vw;
+		margin-left: 0.17em;
 
 		.background {
 			background-color: @bgGreen;
 			padding: 0 3px;
-			margin-left: 11px;
+		}
+	}
+
+	@media only screen and (min-width: 1300px) {
+		h1 {
+			font-size: 1300px*0.092;
+		}
+		h2 {
+			font-size: 1300px*0.05;
 		}
 	}
 }
