@@ -1,0 +1,187 @@
+@black: rgb(41, 47, 54);
+@pink: rgb(228, 62, 94);
+@bgGreen: rgba(201, 224, 190, 0.6);
+@bgSand: rgb(249, 240, 189);
+@white: rgb(255, 255, 255);
+
+@pageWidth: 95%;
+@pagePadding: 5%;
+
+.thin {
+	font-weight: 100;
+}
+
+.regular {
+	font-weight: 400;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 12pt;
+	.regular;
+
+	color: @black;
+}
+
+.full-column, .column {
+	margin: 0.5em auto;
+}
+
+.full-column {
+	width: @pageWidth;
+}
+
+.column {
+	width: @pageWidth - 2*@pagePadding;
+	padding: 1em @pagePadding;
+}
+
+.no-gap {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.half-column {
+	display: inline-block;
+	width: 50%;
+	@gap: 3em;
+	.matrjoska-left {
+		padding-right: @gap;
+	}
+	.matrjoska-right {
+		padding-left: @gap;
+	}
+}
+
+h1, h2, h3 {
+	.regular;
+	font-size: 20pt;
+	margin: 0;
+}
+
+a {
+	color: @pink;
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+.rounded-border {
+	border-radius: 0.3em;
+}
+
+.align-right {
+	text-align: right;
+}
+
+// struktura
+
+header {
+	nav {
+		text-transform: uppercase;
+		ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+
+			li {
+				display: inline-block;
+			}
+
+			li + li:before {
+			    content: "|";
+			    padding: 0 1em;
+			}
+		}
+
+		.eamt-logo {
+			width: 10em;
+		}
+	}
+	.cover-photo {
+		height: 17em;
+
+		background-image: url(../img/mikulas.jpg);
+		background-size: 120%;
+		background-position: 90% 60%;
+
+		.rounded-border;
+
+		.matrjoska {
+			padding-left: 40%;
+		}
+	}
+
+	h1, h2 {
+		.thin;
+		margin: 0;
+		padding: 0;
+		text-transform: uppercase;
+	}
+
+	h1 {
+		// font-size: 89pt;
+		font-size: 9.2vw;
+		margin-bottom: 0.2em;
+	}
+
+	h2 {
+		// font-size: 48pt;
+		font-size: 5vw;
+
+		.background {
+			background-color: @bgGreen;
+			padding: 0 3px;
+			margin-left: 11px;
+		}
+	}
+}
+
+.infobox {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	background-color: @bgSand;
+	.rounded-border;
+}
+
+footer {
+	@height: 2.5em;
+	@width: 103/60*@height;
+	@gap: 1em;
+
+	height: @height;
+	position: relative;
+
+
+	.footer-copyright {
+		height: @height;
+		line-height: @height;
+		padding-left: 12%; // fix
+		padding-right: 1em;
+
+		background-color: @black;
+		color: @white;
+
+		.rounded-border;
+
+		margin-right: @width + @gap;
+	}
+
+	.footer-logo {
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: @width;
+		height: @height;
+
+		img {
+			width: @width;
+			height: @height;
+		}
+		// display: inline-block;
+	}
+}
