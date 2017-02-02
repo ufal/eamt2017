@@ -1,4 +1,5 @@
 <?php
+// hook test
 $title = "EAMT 2017";
 include("header.html");
 ?>
