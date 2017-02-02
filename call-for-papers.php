@@ -22,6 +22,7 @@ include("header.html");
 		</div>
 	</div><div class="half-column">
 		<div class="matrjoska-right">
+			<?php /* ?>
 			<h3>Paper templates</h3>
 			<ul>
 				<li><a href="files/templates/eamt17.pdf">PDF format</a></li>
@@ -30,6 +31,7 @@ include("header.html");
 				<li><a href="files/templates/eamt17.doc">DOC format</a></li>
 				<li><a href="files/templates/eamt17.bst">BST format</a></li>
 			</ul>
+			<?php */ ?>
 		</div>
 	</div>
 </div>

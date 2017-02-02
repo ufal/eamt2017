@@ -13,6 +13,18 @@ include("header.html");
 </div>
 
 <div class="column infobox">
+	<h3>Important Dates</h3>
+	<ul>
+		<li>Paper submission: March 26, 2017.</li>
+		<li>Notification to authors: April 21, 2017.</li>
+		<li>Camera-ready deadline: May 2, 2017.</li>
+		<li>Early-bird registration: May 8, 2017.</li>
+		<li>Conference: May 29-31, 2016.</li>
+	</ul>
+	<h3>Workshops</h3>
+	<ul>
+		<li><a href="https://sites.google.com/view/socialmt/" target="_blank">Social Media and User Generated Content Machine Translation</a>: 31 May</li>
+	</ul>
 	<h3>Organizers</h3>
 	<div class="half-column">
 		<div class="matrjoska-left">
@@ -61,13 +73,5 @@ include("header.html");
 	<p>The event regularly gathers around 150 participants from across Europe.</p>
 
 	<p>Conference presentations feature in-depth descriptions of the latest MT technology, enterprise use cases from large corporations and organisations using MT, best practices from the global localisation industry, the fruits of cutting-edge research from universities and research centers, and the results of EU-funded ICT projects.</p>
-
-	<h3>Workshops</h3>
-	<h4>Workshop on Social Media and User Generated Content Machine Translation</h4>
-	<p>
-		A half-day workshop scheduled for May 31.
-	</p>
-	<p>The organizers are Haithem Afli ( hait<span style="display:none;">|spam protection|</span>hem.afli [at] adaptc<span style="display:none;">|spam protection|</span>entre.ie ) and Andy Way (an<span style="display:none;">|spam protection|</span>dy.way [at] adaptcen<span style="display:none;">|spam protection|</span>tre.ie).</p>
-	<p><a href="https://sites.google.com/view/socialmt/">Social MT website</a></p>
 </div>
 <?php include("footer.html"); ?>
