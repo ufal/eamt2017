@@ -44,11 +44,12 @@ body {
 }
 
 .half-column {
-	display: block;
+	display: inline-block;
 	width: 50%;
 	@gap: 3em;
 
 	&.left {
+		display: block;
 		float: left;
 		.matrjoska {
 			padding-right: @gap;
@@ -56,6 +57,7 @@ body {
 	}
 	
 	&.right {
+		display: block;
 		float: right;
 		.matrjoska {
 			padding-left: @gap;
