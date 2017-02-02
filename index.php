@@ -1,31 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>EAMT 2017</title>
-	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet/less" type="text/css" href="css/style.less">
-	<script src="js/less.min.js"></script>
-	<meta charset="utf-8">
-</head>
-<body>
-
-<header>
-	<nav class="column no-gap">
-		<div class="half-column">
-			<ul>
-				<li>Home</li><li><a href="#">Site under construction</a></li>
-			</ul>
-		</div><div class="half-column align-right">
-			<a href="http://www.eamt.org" target="_blank"><img class="eamt-logo" alt="EAMT logo" src="img/eamt-logo.jpg"></a>
-		</div>
-	</nav>
-	<div class="column cover-photo">
-		<div class="matrjoska">
-			<h1>EAMT 2017</h1>
-			<h2><span class="background">May 29-31, Prague</span></h2>
-		</div>
-	</div>
-</header>
+<?php
+$title = "EAMT 2017";
+include("header.html");
+?>
 <div class="column">
 	<h1>The 20th Annual Conference of the European Association for Machine Translation (EAMT) </h1>
 	<p>will be held in<br>
@@ -63,6 +39,13 @@
 </div>
 
 <div class="column">
+	<h3>First Call for Papers for EAMT 2017 (Prague, Czech Republic)</h3>
+	<p>The European Association for Machine Translation (EAMT) invites everyone interested in machine translation, translation-related tools and resources to participate in this conference.
+	<br><a href="call-for-papers.php">[more]</a>
+	</p>
+</div>
+
+<div class="column">
 	<h3>About the EAMT annual conference</h3>
 
 	<p>The annual <a href="http://www.eamt.org" target="_blank">EAMT</a> conference showcases the very latest in MT tools and technology, with participants representing:</p>
@@ -78,17 +61,13 @@
 	<p>The event regularly gathers around 150 participants from across Europe.</p>
 
 	<p>Conference presentations feature in-depth descriptions of the latest MT technology, enterprise use cases from large corporations and organisations using MT, best practices from the global localisation industry, the fruits of cutting-edge research from universities and research centers, and the results of EU-funded ICT projects.</p>
+
+	<h3>Workshops</h3>
+	<h4>Workshop on Social Media and User Generated Content Machine Translation</h4>
+	<p>
+		A half-day workshop scheduled for May 31.
+	</p>
+	<p>The organizers are Haithem Afli ( hait<span style="display:none;">|spam protection|</span>hem.afli [at] adaptc<span style="display:none;">|spam protection|</span>entre.ie ) and Andy Way (an<span style="display:none;">|spam protection|</span>dy.way [at] adaptcen<span style="display:none;">|spam protection|</span>tre.ie).</p>
+	<p><a href="https://sites.google.com/view/socialmt/">Social MT website</a></p>
 </div>
-<footer class="full-column">
-	<div class="footer-copyright">
-		<div class="half-column">
-			© <a href="http://ufal.mff.cuni.cz" target="_blank">ÚFAL MFF UK</a>
-		</div><div class="half-column align-right">
-			supported by
-		</div>
-	</div><div class="footer-logo">
-		<a href="http://lindat.cz" target="_blank"><img alt="LINDAT/CLARIN logo" src="img/lindat-logo.png"></a>
-	</div>
-</footer>
-</body>
-</html>
+<?php include("footer.html"); ?>
