@@ -25,33 +25,10 @@ include("header.html");
 	<ul>
 		<li><a href="https://sites.google.com/view/socialmt/" target="_blank">Social Media and User Generated Content Machine Translation</a>: 31 May</li>
 	</ul>
-	<h3>Organizers</h3>
-	<div class="half-column">
-		<div class="matrjoska-left">
-			<p>
-			Institute of Formal and Applied Linguistics <a href="http://ufal.mff.cuni.cz" target="_blank">(ÚFAL)</a><br>
-			Computer Science School, Faculty of Mathematics and Physics<br>
-			Charles University, Prague, Czech Republic<br>
-			</p>
-		</div>
-	</div><div class="half-column">
-		<div class="matrjoska-right">
-			<p>The European Association for Machine Translation <a href="http://www.eamt.org" target="_blank">(EAMT)</a></p>
-		</div>
-	</div>
-
-	<h3>General Chair</h3>
-
-	<p><a href="http://www.dlsi.ua.es/~mlf" target="_blank">Mikel Forcada</a></p>
-
-	<h3>Local organizers</h3>
-
-	<p><a href="http://ufal.mff.cuni.cz/ondrej-bojar" target="_blank">Ondrej Bojar</a></p>
-	<p><a href="http://ufal.mff.cuni.cz/jan-hajic" target="_blank">Jan Hajic</a></p>
 </div>
 
 <div class="column">
-	<h3>First Call for Papers for EAMT 2017 (Prague, Czech Republic)</h3>
+	<h3>Call for Papers for EAMT 2017 (Prague, Czech Republic)</h3>
 	<p>The European Association for Machine Translation (EAMT) invites everyone interested in machine translation, translation-related tools and resources to participate in this conference.
 	<br><a href="call-for-papers.php">[more]</a>
 	</p>
@@ -73,5 +50,22 @@ include("header.html");
 	<p>The event regularly gathers around 150 participants from across Europe.</p>
 
 	<p>Conference presentations feature in-depth descriptions of the latest MT technology, enterprise use cases from large corporations and organisations using MT, best practices from the global localisation industry, the fruits of cutting-edge research from universities and research centers, and the results of EU-funded ICT projects.</p>
+
+	<h3>Organizers</h3>
+	<p>
+	Institute of Formal and Applied Linguistics <a href="http://ufal.mff.cuni.cz" target="_blank">(ÚFAL)</a><br>
+	Computer Science School, Faculty of Mathematics and Physics<br>
+	Charles University, Prague, Czech Republic<br>
+	The European Association for Machine Translation <a href="http://www.eamt.org" target="_blank">(EAMT)</a>
+	</p>
+
+	<h3>General Chair</h3>
+
+	<p><a href="http://www.dlsi.ua.es/~mlf" target="_blank">Mikel Forcada</a></p>
+
+	<h3>Local organizers</h3>
+
+	<p><a href="http://ufal.mff.cuni.cz/ondrej-bojar" target="_blank">Ondrej Bojar</a></p>
+	<p><a href="http://ufal.mff.cuni.cz/jan-hajic" target="_blank">Jan Hajic</a></p>
 </div>
 <?php include("footer.html"); ?>

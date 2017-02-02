@@ -44,15 +44,27 @@ body {
 }
 
 .half-column {
-	display: inline-block;
+	display: block;
 	width: 50%;
 	@gap: 3em;
-	.matrjoska-left {
-		padding-right: @gap;
+
+	&.left {
+		float: left;
+		.matrjoska {
+			padding-right: @gap;
+		}
 	}
-	.matrjoska-right {
-		padding-left: @gap;
+	
+	&.right {
+		float: right;
+		.matrjoska {
+			padding-left: @gap;
+		}
 	}
+}
+
+.clear {
+	clear: both;
 }
 
 h1, h2, h3 {

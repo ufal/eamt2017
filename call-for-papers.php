@@ -3,14 +3,14 @@ $title = "Call for papers | EAMT 2017";
 include("header.html");
 ?>
 <div class="column">
-	<h1>First Call for Papers: The 20th Annual Conference of the European Association for Machine Translation</h1>
+	<h1>Call for Papers: The 20th Annual Conference of the European Association for Machine Translation</h1>
 
 	<p>The European Association for Machine Translation (EAMT) invites everyone interested in machine translation, translation-related tools and resources to participate in this conference-developers, researchers, users, professional translators and translation/localisation managers: anyone who has a stake in the vision of an information world in which language barriers and issues become less visible to the information consumer. We especially invite researchers to describe the state of the art and demonstrate their cutting-edge results, and professional MT users to share their experiences.</p>
 </div>
 
 <div class="column infobox" id="templates">
-	<div class="half-column">
-		<div class="matrjoska-left">
+	<div class="half-column left">
+		<div class="matrjoska">
 			<h3>Important Dates</h3>
 			<ul>
 				<li>Paper submission: March 26, 2017.</li>
@@ -20,20 +20,26 @@ include("header.html");
 				<li>Conference: May 29-31, 2016.</li>
 			</ul>
 		</div>
-	</div><div class="half-column">
-		<div class="matrjoska-right">
-			<?php /* ?>
+	</div><div class="half-column right">
+		<div class="matrjoska">
 			<h3>Paper templates</h3>
+			<p>coming soon</p>
+			<?php /* ?>
+			<h4>Research Paper Template</h4>
 			<ul>
-				<li><a href="files/templates/eamt17.pdf">PDF format</a></li>
-				<li><a href="files/templates/eamt17.tex">TEX format</a></li>
-				<li><a href="files/templates/eamt17.sty">STY format</a></li>
-				<li><a href="files/templates/eamt17.doc">DOC format</a></li>
-				<li><a href="files/templates/eamt17.bst">BST format</a></li>
+				<li><a href="http://ufal.mff.cuni.cz/pbml/pbml-5_0-flat.zip">PBML XeLaTeX Style</a></li>
+				<li>TADY BY BYLO DOBRE PRIDAT ODKAZ NA OVERLEAF TEMPLATE</li>
+			</ul>
+
+			<h4>User/Project/Product Paper Template</h4>
+			<ul>
+				<li><a href="files/templates/eamt17.doc">MS Word</a></li>
+				<li><a href="files/templates/eamt17.zip">LaTeX</a></li>
 			</ul>
 			<?php */ ?>
 		</div>
 	</div>
+	<div class="clear"></div>
 </div>
 
 <div class="column">
