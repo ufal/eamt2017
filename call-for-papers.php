@@ -43,8 +43,6 @@ include("header.html");
 </div>
 
 <div class="column">
-	<p>We expect to receive manuscripts in these three categories:</p>
-
 	<h4>Research papers</h4>
 
 	<p> Long-paper submissions (12 pages) are invited for reports of significant research results in any aspect of machine translation and related areas. Such reports should include a substantial evaluation component, or have a strong theoretical and/or methodological contribution where results and in-depth evaluations may not be appropriate. Papers are welcome on all topics in the areas of machine translation and translation-related technologies, including:</p>
