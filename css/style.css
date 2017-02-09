@@ -1,0 +1,164 @@
+.thin {
+  font-weight: 100;
+}
+.regular {
+  font-weight: 400;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12pt;
+  font-weight: 400;
+  color: #292f36;
+}
+.full-column,
+.column {
+  margin: 0.5em auto;
+}
+.full-column {
+  width: 95%;
+}
+.column {
+  width: 85%;
+  padding: 1em 5%;
+}
+.no-gap {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.half-column {
+  display: inline-block;
+  width: 50%;
+}
+.half-column.left {
+  display: block;
+  float: left;
+}
+.half-column.left .matrjoska {
+  padding-right: 3em;
+}
+.half-column.right {
+  display: block;
+  float: right;
+}
+.half-column.right .matrjoska {
+  padding-left: 3em;
+}
+.clear {
+  clear: both;
+}
+h1,
+h2,
+h3 {
+  font-weight: 400;
+  margin: 0;
+}
+h1 {
+  font-size: 20pt;
+}
+h2 {
+  font-size: 18pt;
+}
+h3 {
+  font-size: 15pt;
+}
+a {
+  color: #e43e5e;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.rounded-border {
+  border-radius: 0.3em;
+}
+.align-right {
+  text-align: right;
+}
+header.main nav {
+  text-transform: uppercase;
+}
+header.main nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+header.main nav ul li {
+  display: inline-block;
+}
+header.main nav ul li + li:before {
+  content: "|";
+  padding: 0 1em;
+}
+header.main nav .eamt-logo {
+  width: 10em;
+}
+header.main .cover-photo {
+  height: 17em;
+  background-image: url(../img/mikulas.jpg);
+  background-size: 120%;
+  background-position: 90% 60%;
+  border-radius: 0.3em;
+}
+header.main .cover-photo .matrjoska {
+  padding-left: 40%;
+}
+header.main h1,
+header.main h2 {
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+header.main h1 {
+  font-size: 9.2vw;
+  margin-bottom: 0.2em;
+}
+header.main h2 {
+  font-size: 5vw;
+  margin-left: 0.17em;
+}
+header.main h2 .background {
+  background-color: rgba(201, 224, 190, 0.6);
+  padding: 0 3px;
+}
+@media only screen and (min-width: 1300px) {
+  header.main h1 {
+    font-size: 119.6px;
+  }
+  header.main h2 {
+    font-size: 65px;
+  }
+}
+.infobox {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-color: #f9f0bd;
+  border-radius: 0.3em;
+}
+footer {
+  height: 2.5em;
+  position: relative;
+}
+footer .footer-copyright {
+  height: 2.5em;
+  line-height: 2.5em;
+  padding-left: 12%;
+  padding-right: 1em;
+  background-color: #292f36;
+  color: #ffffff;
+  border-radius: 0.3em;
+  margin-right: 5.29166667em;
+}
+footer .footer-logo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 4.29166667em;
+  height: 2.5em;
+}
+footer .footer-logo img {
+  width: 4.29166667em;
+  height: 2.5em;
+}
