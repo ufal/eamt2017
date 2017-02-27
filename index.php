@@ -18,8 +18,8 @@ include("header.html");
 	<ul>
 		<li>Paper submission: March 26, 2017.</li>
 		<li>Notification to authors: April 21, 2017.</li>
+		<li>Early-bird registration: April 28, 2017.</li>
 		<li>Camera-ready deadline: May 2, 2017.</li>
-		<li>Early-bird registration: May 8, 2017.</li>
 		<li>Conference: May 29&ndash;31, 2016.</li>
 	</ul>
 	<h2>Workshops</h2>
