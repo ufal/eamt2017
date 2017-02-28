@@ -22,21 +22,18 @@ include("header.html");
 		</div>
 	</div><div class="half-column right">
 		<div class="matrjoska">
-			<h3>Paper templates</h3>
-			<p>coming soon</p>
-			<?php /* ?>
 			<h4>Research Paper Template</h4>
 			<ul>
+        <li><a href="https://www.overleaf.com/read/jgvrjmrqnwct">Overleaf Project to Clone</a></li>
 				<li><a href="http://ufal.mff.cuni.cz/pbml/pbml-5_0-flat.zip">PBML XeLaTeX Style</a></li>
-				<li>TADY BY BYLO DOBRE PRIDAT ODKAZ NA OVERLEAF TEMPLATE</li>
 			</ul>
 
 			<h4>User/Project/Product Paper Template</h4>
 			<ul>
-				<li><a href="files/templates/eamt17.doc">MS Word</a></li>
+        <li><a href="https://www.overleaf.com/read/hjvtmxnjkpqt">Overleaf Project to Clone</a></li>
 				<li><a href="files/templates/eamt17.zip">LaTeX</a></li>
+				<li><a href="files/templates/eamt17.doc">MS Word</a></li>
 			</ul>
-			<?php */ ?>
 		</div>
 	</div>
 	<div class="clear"></div>
