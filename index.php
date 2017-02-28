@@ -26,7 +26,7 @@ include("header.html");
 			</ul>
 			<h3>Workshops</h3>
 			<ul>
-				<li><a href="https://sites.google.com/view/socialmt/" target="_blank">Social Media and User Generated Content Machine Translation</a>: 31 May</li>
+				<li><a href="https://sites.google.com/view/socialmt/" target="_blank">Social Media and User Generated Content Machine Translation</a>: 31&nbsp;May</li>
 			</ul>
 		</div>
 	</div><div class="half-column right">
