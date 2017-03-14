@@ -52,6 +52,17 @@ include("header.html");
 
 	<p>Conference presentations feature in-depth descriptions of the latest MT technology, enterprise use cases from large corporations and organisations using MT, best practices from the global localisation industry, the fruits of cutting-edge research from universities and research centers, and the results of EU-funded ICT projects.</p>
 
+	<p><strong>Keynote speaker</strong><br>
+	João Graça, CTO and co-founder of Unbabel (Lisboa, Portugal)<br>
+	"How to combine AI with the crowd to scale professional-quality translation"</p>
+
+	<p><strong>General programme</strong><br>
+	The programme will include oral presentations and poster sessions. Accepted papers may be assigned to an oral or poster session, but no differentiation will be made in the conference proceedings.</p>
+
+	The winner of the EAMT Best Thesis Award 2017 will present his work.
+
+	<p><strong>EAMT General Assembly</strong><br>
+	Everyone is invited to the annual General Assembly of the European Association for Machine Translation. But if you really want to take part in the future of the EAMT should, become a member: <a href="http://www.eamt.org/membership.php">http://www.eamt.org/membership.php</a>.</p>
 	<h2>Organizers</h2>
 	<p>
 	Institute of Formal and Applied Linguistics <a href="http://ufal.mff.cuni.cz" target="_blank">(ÚFAL)</a><br>
