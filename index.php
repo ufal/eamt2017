@@ -18,11 +18,11 @@ include("header.html");
 		<div class="matrjoska">
 			<h3>Important Dates</h3>
 			<ul>
-				<li>Paper submission: March 26, 2017.</li>
+				<li><strong>Paper submission: March 26, 2017.</strong></li>
 				<li>Notification to authors: April 21, 2017.</li>
-				<li>Early-bird registration: April 28, 2017.</li>
+				<li>Early bird registration: April 28, 2017.</li>
 				<li>Camera-ready deadline: May 2, 2017.</li>
-				<li>Conference: May 29&ndash;31, 2016.</li>
+				<li>Conference: May 29&ndash;31, 2017.</li>
 			</ul>
 			<h3>Workshops</h3>
 			<ul>

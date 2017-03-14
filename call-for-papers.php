@@ -5,13 +5,15 @@ include("header.html");
 <article>
 <div class="column">
 <header>
-<h1>1st Call for papers</h1>
+<h1>2nd Call for papers</h1>
 <h2>EAMT 2017: The 20th Annual Conference of the European Association for Machine Translation</h2>
 <p>Prague, Czech Republic
 <br>May 29 to 31, 2017
 <br><a href="https://ufal.mff.cuni.cz/eamt2017/">https://ufal.mff.cuni.cz/eamt2017/</a></p>
 </header>
-<p>The European Association for Machine Translation (EAMT) invites everyone interested in machine translation, translation-related tools and resources to participate in this conference &#8213; developers, researchers, users, professional translators and translation/localisation managers: anyone who has a stake in the vision of an information world in which language barriers and issues become less visible to the information consumer. We especially invite researchers to describe the state of the art and demonstrate their cutting-edge results, and professional MT users to share their experiences.</p>
+<strong style="background-color:#f9f0bd;padding:4px;">Paper submission deadline: March 26, 2017</strong>
+<h2 style="margin-top:20px;">A call to everyone involved with machine translation</h2>
+<p>The European Association for Machine Translation (EAMT) invites everyone interested in machine translation, translation-related tools and resources to participate in this conference &#8213; developers, researchers, users, professional translators and translation/localisation managers: anyone who has a stake in the vision of an information world in which language barriers and issues become less visible to the information consumer. We especially invite researchers to describe the state of the art and demonstrate their cutting-edge results, and institutions and independent MT users to share their experiences.</p>
 </div>
 
 <div class="column infobox" id="templates">
@@ -19,11 +21,11 @@ include("header.html");
 		<div class="matrjoska">
 			<h2>Important dates</h2>
 			<ul>
-				<li>Paper submission: March 26, 2017.</li>
+				<li><strong>Paper submission: March 26, 2017.</strong></li>
 				<li>Notification to authors: April 21, 2017.</li>
-				<li>Early-bird registration: April 28, 2017.</li>
+				<li>Early bird registration: April 28, 2017.</li>
 				<li>Camera-ready deadline: May 2, 2017.</li>
-				<li>Conference: May 29&ndash;31, 2016.</li>
+				<li>Conference: May 29&ndash;31, 2017.</li>
 			</ul>
 		</div>
 	</div><div class="half-column right">
@@ -48,7 +50,7 @@ include("header.html");
 <div class="column">
 <p>We expect to receive manuscripts in these three categories:</p>
 <h3>(R) Research papers</h3>
-<p>Long-paper submissions (12 pages)&nbsp;are invited for reports of significant research results in any aspect of machine translation and related areas. Such reports should include a substantial evaluation component, or have a strong theoretical and/or methodological contribution where results and in-depth evaluations may not be appropriate. Papers are welcome on all topics in the areas of machine translation and translation-related technologies, including:</p>
+<p>Long-paper submissions (12 pages)&nbsp;are invited for reports of significant research results in any aspect of machine translation and related areas. Such reports should&nbsp;either&nbsp;include a substantial evaluation component, or have a strong theoretical and/or methodological contribution where results and in-depth evaluations may not be appropriate. Papers are welcome on all topics in the areas of machine translation and translation-related technologies, including:</p>
 <ul>
     <li>Novel deep-learning approaches for MT and MT evaluation</li>
     <li>Advances in classical MT paradigms: statistical, rule-based, and hybrid approaches</li>
@@ -62,9 +64,9 @@ include("header.html");
     <li>Related multilingual technologies: natural language generation, information retrieval, text categorisation, text summarisation, information extraction, etc.</li>
 </ul>
 <p>Papers should describe original work. They should emphasise completed work rather than intended work, and should indicate clearly the state of completion of the reported results. Where appropriate, concrete evaluation results should be included. </p>
-<p>Papers should be anonymized, prepared according to the instructions for authors in <a href="https://ufal.mff.cuni.cz/pbml/instructions-authors">https://ufal.mff.cuni.cz/pbml/instructions-authors</a>, and no longer than 12 pages; the resulting PDFs submitted to <a href="https://easychair.org/conferences/?conf=eamt2017">https://easychair.org/conferences/?conf=eamt2017</a>&nbsp;(Submission type: EAMT2017 Research).</p>
+<p>Papers should be anonymized, prepared using the templates available at <a href="http://ufal.mff.cuni.cz/eamt2017/">http://ufal.mff.cuni.cz/eamt2017/</a>, and no longer than 12 pages; the resulting PDFs submitted to <a href="https://easychair.org/conferences/?conf=eamt2017">https://easychair.org/conferences/?conf=eamt2017</a>&nbsp;(Submission type: EAMT2017 Research).</p>
 <h3>(U) User studies</h3>
-<p>Short-paper submissions (3-6 pages) are invited for reports on users&#39; experiences with MT, be it as individual translators, in small or medium size business (SMB), &nbsp;in the enterprise, int the government, or in NGOs. Contributions are welcome on:</p>
+<p>Short-paper submissions (3-6 pages) are invited for reports on users&#39; experiences with MT, be it as individual translators, in small or medium size business (SMB), &nbsp;in the enterprise, in government, or in NGOs. Contributions are welcome on:</p>
 <ul>
     <li>Integrating MT and computer-assisted translation into a translation production workflow (e.g. transforming terminology glossaries into MT resources, optimizing TM/MT thresholds, mixing online and offline tools, using interactive MT, dealing with MT confidence scores);</li>
     <li>Use of MT to improve translation or localisation workflows (e.g. reducing turnaround times, improving translation consistency, increasing the scope of globalisation projects);</li>
@@ -78,22 +80,38 @@ include("header.html");
     <li>Use of standards for MT.</li>
 </ul>
 <p>Papers should highlight problems and solutions in addition to describing MT integration process or project settings. Where solutions do not seem to exist, suggestions for MT researchers and developers should be clearly emphasised. For user papers produced by academics, we require co-authorship with the actual users. </p>
-<p>Papers should be formatted according to the <a href="call-for-papers.php#templates">templates</a>, no longer than 6 pages, and submitted&nbsp;to <a href="https://easychair.org/conferences/?conf=eamt2017">https://easychair.org/conferences/?conf=eamt2017</a>&nbsp;(Submission type: EAMT2017 User)</p>
+<p>Papers should be formatted according to the templates available at <a href="https://ufal.mff.cuni.cz/eamt2017/">https://ufal.mff.cuni.cz/eamt2017/</a>&nbsp;, no longer than 6 pages, and submitted&nbsp;to <a href="https://easychair.org/conferences/?conf=eamt2017">https://easychair.org/conferences/?conf=eamt2017</a>&nbsp;(Submission type: EAMT2017 User)</p>
 <h3>(P) Project/Product description</h3>
 <p>Abstract submissions (1 page) are invited to report new, interesting:</p>
 <ul>
     <li>Tools for machine translation, computer aided translation, and the like (including commercial products and open-source software). The authors should be ready to present the tools in the form of demos or posters during the conference.</li>
     <li>Research projects related to machine translation. The authors should be ready to present the projects in the form of posters during the conference. This follows on from the successful &lsquo;project villages&rsquo; held at the last EAMT conferences.</li>
 </ul>
-<p>Abstracts should be formatted according to the <a href="call-for-papers.php#templates">templates</a>, no longer than 1 page, and submitted to <a href="https://easychair.org/conferences/?conf=eamt2017">https://easychair.org/conferences/?conf=eamt2017</a>&nbsp;(Submission type: EAMT2017 Products-Projects).</p>
-<h2>Programme</h2>
-<p>The programme will include oral presentations and poster sessions. Accepted papers may be assigned to an oral or poster session, but no differentiation will be made in the conference proceedings.</p>
+<p>Abstracts should be formatted according to the templates available at <a href="https://ufal.mff.cuni.cz/eamt2017/">https://ufal.mff.cuni.cz/eamt2017/</a>&nbsp;, no longer than 1 page, and submitted to <a href="https://easychair.org/conferences/?conf=eamt2017">https://easychair.org/conferences/?conf=eamt2017</a>&nbsp;(Submission type: EAMT2017 Products&ndash;Projects).</p>
 <h2>Publications</h2>
-<p>Accepted papers in the research track will be published in a special issue&nbsp;(number 108, dated June 2017) of the Prague Bulletin of Mathematical Linguistics (PBML), <a href="https://ufal.mff.cuni.cz/pbml">https://ufal.mff.cuni.cz/pbml</a>.</p>
+<p>Accepted papers in the research track will be published in a special issue&nbsp;(number 108, dated June 2017) of the Prague Bulletin of Mathematical Linguistics (PBML), <a href="https://ufal.mff.cuni.cz/">https://ufal.mff.cuni.cz/</a><a>pbml</a>.</p>
 <p>Accepted papers in the user track and accepted project/product description abstracts will be published in an electronic book of proceedings.</p>
-<p>In addition, the best accepted papers will be invited to submit an extended version undergoing a lighter reviewing process, as regular papers in the Springer journal Machine Translation.</p>
+<p>In addition, the best accepted papers will be invited to submit an extended version undergoing a lighter reviewing process as regular papers in the Springer journal Machine Translation.</p>
 <h2>Best Thesis Award</h2>
-<p>The EAMT Best Thesis Award 2017 for PhD theses submitted during 2016 will be awarded at the conference, together with a presentation of the winner&rsquo;s work. Information for candidates to the award is available at: <a href="http://www.eamt.org/news/news_best_thesis2016.php">http://www.eamt.org/news/news_best_thesis2016.php</a>.&nbsp;&nbsp;The deadline is the same as for the paper submission.&nbsp;Theses should be submitted to <a href="https://easychair.org/conferences/?conf=eamt2017">https://easychair.org/conferences/?conf=eamt2017</a>&nbsp;(Submission type: Thesis Award)</p>
+<p>The EAMT Best Thesis Award 2017 for PhD theses submitted during 2016 will be awarded at the conference, together with a presentation of the winner&rsquo;s work. Information for candidates to&nbsp;the award is available at: <a href="http://www.eamt.org/news/news_best_thesis2016.php">http://www.eamt.org/news/news_best_thesis2016.php</a>.&nbsp;&nbsp;The deadline is the same as for the paper submission.&nbsp;Theses should be submitted to <a href="https://easychair.org/conferences/?conf=eamt2017">https://easychair.org/conferences/?conf=eamt2017</a>&nbsp;(Submission type: Thesis Award)</p>
+<p>Chairs</p>
+<ul>
+    <li>General chair: Mikel L. Forcada, Universitat d&rsquo;Alacant, Spain</li>
+    <li>Research track chair: Alexander Fraser, Ludwig-Maximilians-Universit&auml;t M&uuml;nchen, Germany</li>
+    <li>User track chair: Kim Harris, text&amp;form GmbH, Berlin, Germany</li>
+    <li>Local organization: Ond&#345;ej Bojar, Jan Haji&#269;, Univerzita Karlova, Prague, Czech Republic.</li>
+</ul>
+<h2>About the programme</h2>
+<h3>Keynote speaker</h3>
+<p>Jo&atilde;o Gra&ccedil;a, CTO and co-founder of Unbabel (Lisboa, Portugal)<br>&quot;How to combine AI with the crowd to scale professional-quality translation&quot; </p>
+<h3>General programme</h3>
+<p>The programme will include oral presentations and poster sessions. Accepted papers may be assigned to an oral or poster session, but no differentiation will be made in the conference proceedings.</p>
+<p>The winner of the EAMT Best Thesis Award 2017 will present their&nbsp;work.</p>
+<h3>EAMT General Assembly</h3>
+<p>Everyone is invited to the annual General Assembly of the European Association for Machine Translation. But if you really want to take part in the future of the EAMT, become a member: <a href="http://www.eamt.org/membership.php">http://www.eamt.org/membership.php</a>.</p>
+<h3>Social activities</h3>
+<p>To be announced.</p>
+
 </div>
 
 </article>
