@@ -21,28 +21,25 @@ include("header.html");
 			<ul>
 				<li>Paper submission: March 26, 2017.</li>
 				<li>Notification to authors: April 21, 2017.</li>
+				<li>Early-bird registration: April 28, 2017.</li>
 				<li>Camera-ready deadline: May 2, 2017.</li>
-				<li>Early-bird registration: May 8, 2017.</li>
 				<li>Conference: May 29&ndash;31, 2016.</li>
 			</ul>
 		</div>
 	</div><div class="half-column right">
 		<div class="matrjoska">
-			<h2>Paper templates</h2>
-			<p>coming soon</p>
-			<?php /* ?>
 			<h4>Research Paper Template</h4>
 			<ul>
+        <li><a href="https://www.overleaf.com/read/jgvrjmrqnwct">Overleaf Project to Clone</a></li>
 				<li><a href="http://ufal.mff.cuni.cz/pbml/pbml-5_0-flat.zip">PBML XeLaTeX Style</a></li>
-				<li>TADY BY BYLO DOBRE PRIDAT ODKAZ NA OVERLEAF TEMPLATE</li>
 			</ul>
 
 			<h4>User/Project/Product Paper Template</h4>
 			<ul>
-				<li><a href="files/templates/eamt17.doc">MS Word</a></li>
+        <li><a href="https://www.overleaf.com/read/hjvtmxnjkpqt">Overleaf Project to Clone</a></li>
 				<li><a href="files/templates/eamt17.zip">LaTeX</a></li>
+				<li><a href="files/templates/eamt17.doc">MS Word</a></li>
 			</ul>
-			<?php */ ?>
 		</div>
 	</div>
 	<div class="clear"></div>
