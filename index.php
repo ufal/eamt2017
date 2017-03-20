@@ -13,30 +13,50 @@ include("header.html");
 	Malostranské náměstí 25, 11800 Prague 1, Czech Republic</p>
 </div>
 
-<div class="column infobox">
-	<h3>Important Dates</h3>
-	<ul>
-		<li>Paper submission: March 26, 2017.</li>
-		<li>Notification to authors: April 21, 2017.</li>
-		<li>Camera-ready deadline: May 2, 2017.</li>
-		<li>Early-bird registration: May 8, 2017.</li>
-		<li>Conference: May 29-31, 2016.</li>
-	</ul>
-	<h3>Workshops</h3>
-	<ul>
-		<li><a href="https://sites.google.com/view/socialmt/" target="_blank">Social Media and User Generated Content Machine Translation</a>: 31 May</li>
-	</ul>
+<div class="column infobox" id="templates">
+	<div class="half-column left">
+		<div class="matrjoska">
+			<h3>Important Dates</h3>
+			<ul>
+				<li><strong>Paper submission: March 26, 2017.</strong></li>
+				<li>Notification to authors: April 21, 2017.</li>
+				<li>Early bird registration: April 28, 2017.</li>
+				<li>Camera-ready deadline: May 2, 2017.</li>
+				<li>Conference: May 29&ndash;31, 2017.</li>
+			</ul>
+			<h3>Workshops</h3>
+			<ul>
+				<li><a href="https://sites.google.com/view/socialmt/" target="_blank">Social Media and User Generated Content Machine Translation</a>: 31&nbsp;May</li>
+			</ul>
+		</div>
+	</div><div class="half-column right">
+		<div class="matrjoska">
+			<h4>Research Paper Template</h4>
+			<ul>
+        <li><a href="https://www.overleaf.com/read/jgvrjmrqnwct">Overleaf Project to Clone</a></li>
+				<li><a href="http://ufal.mff.cuni.cz/pbml/pbml-5_0-flat.zip">PBML XeLaTeX Style</a></li>
+			</ul>
+
+			<h4>User/Project/Product Paper Template</h4>
+			<ul>
+        <li><a href="https://www.overleaf.com/read/hjvtmxnjkpqt">Overleaf Project to Clone</a></li>
+				<li><a href="files/templates/eamt17.zip">LaTeX</a></li>
+				<li><a href="files/templates/eamt17.doc">MS Word</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="clear"></div>
 </div>
 
 <div class="column">
-	<h3>Call for Papers for EAMT 2017 (Prague, Czech Republic)</h3>
+	<h2>Call for Papers for EAMT 2017 (Prague, Czech Republic)</h2>
 	<p>The European Association for Machine Translation (EAMT) invites everyone interested in machine translation, translation-related tools and resources to participate in this conference.
 	<br><a href="call-for-papers.php">[more]</a>
 	</p>
 </div>
 
 <div class="column">
-	<h3>About the EAMT annual conference</h3>
+	<h2>About the EAMT annual conference</h2>
 
 	<p>The annual <a href="http://www.eamt.org" target="_blank">EAMT</a> conference showcases the very latest in MT tools and technology, with participants representing:</p>
 
@@ -52,7 +72,7 @@ include("header.html");
 
 	<p>Conference presentations feature in-depth descriptions of the latest MT technology, enterprise use cases from large corporations and organisations using MT, best practices from the global localisation industry, the fruits of cutting-edge research from universities and research centers, and the results of EU-funded ICT projects.</p>
 
-	<h3>Organizers</h3>
+	<h2>Organizers</h2>
 	<p>
 	Institute of Formal and Applied Linguistics <a href="http://ufal.mff.cuni.cz" target="_blank">(ÚFAL)</a><br>
 	Computer Science School, Faculty of Mathematics and Physics<br>
@@ -60,11 +80,11 @@ include("header.html");
 	The European Association for Machine Translation <a href="http://www.eamt.org" target="_blank">(EAMT)</a>
 	</p>
 
-	<h3>General Chair</h3>
+	<h2>General Chair</h2>
 
 	<p><a href="http://www.dlsi.ua.es/~mlf" target="_blank">Mikel Forcada</a></p>
 
-	<h3>Local organizers</h3>
+	<h2>Local organizers</h2>
 
 	<p><a href="http://ufal.mff.cuni.cz/ondrej-bojar" target="_blank">Ondrej Bojar</a></p>
 	<p><a href="http://ufal.mff.cuni.cz/jan-hajic" target="_blank">Jan Hajic</a></p>
