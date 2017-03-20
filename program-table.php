@@ -20,6 +20,10 @@ $table = $sheetjson->values;
 <p>Prague, Czech Republic
 <br>May 29 to 31, 2017
 <br><a href="https://ufal.mff.cuni.cz/eamt2017/">https://ufal.mff.cuni.cz/eamt2017/</a></p>
+<p>at the Faculty of Mathematics and Physics, Charles University,<br>
+Malostranské náměstí 25, 11800 Prague 1, Czech Republic<br>
+Room S9</p>
+
 </header>
 </div>
 
