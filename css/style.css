@@ -45,6 +45,12 @@ body {
 .half-column.right .matrjoska {
   padding-left: 3em;
 }
+.half-column.third {
+  width: 33.33%;
+}
+.half-column.twothirds {
+  width: 66.66%;
+}
 .clear {
   clear: both;
 }
