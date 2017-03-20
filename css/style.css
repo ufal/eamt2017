@@ -137,6 +137,31 @@ header.main h2 .background {
   background-color: #f9f0bd;
   border-radius: 0.3em;
 }
+.prices {
+  margin: 1em;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+.prices thead th {
+  border-top: 0;
+}
+.prices td,
+.prices th {
+  padding: 8px;
+  line-height: 1.42857143;
+  border-top: 1px solid #ddd;
+}
+.prices .member-price {
+  background-color: #f9f0bd;
+}
+.prices .disabled {
+  color: #777;
+}
+.member-price-note {
+  background-color: #f9f0bd;
+  padding: 8px;
+  line-height: 1.42857143;
+}
 footer {
   height: 2.5em;
   position: relative;

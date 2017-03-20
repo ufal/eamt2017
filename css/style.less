@@ -182,6 +182,31 @@ header.main {
 	.rounded-border;
 }
 
+.prices {
+	margin: 1em;
+	border-spacing: 0;
+	border-collapse: collapse;
+	thead th {
+		border-top: 0;
+	}
+	td, th {
+		padding: 8px;
+		line-height: 1.42857143;
+		border-top: 1px solid #ddd;
+	}
+	.member-price {
+		background-color: @bgSand;
+	}
+	.disabled {
+		color: #777;
+	}
+}
+.member-price-note {
+	background-color: @bgSand;
+	padding: 8px;
+	line-height: 1.42857143;
+}
+
 footer {
 	@height: 2.5em;
 	@width: 103/60*@height;
