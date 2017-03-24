@@ -60,8 +60,8 @@ $onsiteDisabled = time() > strtotime($onsiteDate) ? "" : ' class="disabled"';
 		</tr>
 	</tbody>
 	</table>
-	<p><span class="member-price-note">* member price</span></p>
-	<h2>Workshop price</h2>
+	<p><span class="member-price-note">* price for <a href="http://eamt.org/">EAMT</a> members</span></p>
+	<h3>Workshop price</h3>
 	<table class="prices">
 	<thead>
 		<tr>
@@ -83,7 +83,6 @@ $onsiteDisabled = time() > strtotime($onsiteDate) ? "" : ' class="disabled"';
 
 	<h2>Registration</h2>
 	<br>
-	<iframe src="https://ufal.mff.cuni.cz/eamt2017/registration/" width="100%" height="1000"></iframe>
-
+	<a href="https://ufal.mff.cuni.cz/eamt2017/registration/">Continue to registration form</a>.
 </div>
 <?php include("footer.html"); ?>
