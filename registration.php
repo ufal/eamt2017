@@ -83,6 +83,6 @@ $onsiteDisabled = time() > strtotime($onsiteDate) ? "" : ' class="disabled"';
 
 	<h2>Registration</h2>
 	<br>
-	<a href="https://ufal.mff.cuni.cz/eamt2017/registration/">Continue to registration form</a>.
+	<a href="https://ufal.mff.cuni.cz/eamt2017/registration/">Continue to the registration form</a>.
 </div>
 <?php include("footer.html"); ?>
