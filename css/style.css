@@ -4,6 +4,9 @@
 .regular {
   font-weight: 400;
 }
+strike {
+  color: #777;
+}
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 12pt;

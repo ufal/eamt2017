@@ -5,13 +5,13 @@ include("header.html");
 <article>
 <div class="column">
 <header>
-<h1>2nd Call for papers</h1>
+<h1>Final Call for papers</h1>
 <h2>EAMT 2017: The 20th Annual Conference of the European Association for Machine Translation</h2>
 <p>Prague, Czech Republic
-<br>May 29 to 31, 2017
+<br>May 29&ndash;31, 2017
 <br><a href="https://ufal.mff.cuni.cz/eamt2017/">https://ufal.mff.cuni.cz/eamt2017/</a></p>
 </header>
-<strong style="background-color:#f9f0bd;padding:4px;">Paper submission deadline: March 26, 2017</strong>
+<strong style="background-color:#f9f0bd;padding:4px;">Paper submission deadline extended: April 2, 2017</strong>
 <h2 style="margin-top:20px;">A call to everyone involved with machine translation</h2>
 <p>The European Association for Machine Translation (EAMT) invites everyone interested in machine translation, translation-related tools and resources to participate in this conference &#8213; developers, researchers, users, professional translators and translation/localisation managers: anyone who has a stake in the vision of an information world in which language barriers and issues become less visible to the information consumer. We especially invite researchers to describe the state of the art and demonstrate their cutting-edge results, and institutions and independent MT users to share their experiences.</p>
 </div>
@@ -20,13 +20,7 @@ include("header.html");
 	<div class="half-column left">
 		<div class="matrjoska">
 			<h2>Important dates</h2>
-			<ul>
-				<li><strong>Paper submission: March 26, 2017.</strong></li>
-				<li>Notification to authors: April 21, 2017.</li>
-				<li>Early bird registration: April 28, 2017.</li>
-				<li>Camera-ready deadline: May 2, 2017.</li>
-				<li>Conference: May 29&ndash;31, 2017.</li>
-			</ul>
+            <?php include("parts/important-dates.php"); ?>
 		</div>
 	</div><div class="half-column right">
 		<div class="matrjoska">
@@ -65,6 +59,7 @@ include("header.html");
 </ul>
 <p>Papers should describe original work. They should emphasise completed work rather than intended work, and should indicate clearly the state of completion of the reported results. Where appropriate, concrete evaluation results should be included. </p>
 <p>Papers should be anonymized, prepared using the templates available at <a href="http://ufal.mff.cuni.cz/eamt2017/">http://ufal.mff.cuni.cz/eamt2017/</a>, and no longer than 12 pages; the resulting PDFs submitted to <a href="https://easychair.org/conferences/?conf=eamt2017">https://easychair.org/conferences/?conf=eamt2017</a>&nbsp;(Submission type: EAMT2017 Research).</p>
+<p>Important: &nbsp;Preparing your submissions in Overleaf (<a href="http://www.overleaf.com">http://www.overleaf.com</a>) and mentioning your Overleaf URL when submitting your paper is strongly preferred to speed up the processing of accepted papers.</p>
 <h3>(U) User studies</h3>
 <p>Short-paper submissions (3-6 pages) are invited for reports on users&#39; experiences with MT, be it as individual translators, in small or medium size business (SMB), &nbsp;in the enterprise, in government, or in NGOs. Contributions are welcome on:</p>
 <ul>

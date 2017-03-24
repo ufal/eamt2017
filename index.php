@@ -17,13 +17,7 @@ include("header.html");
 	<div class="half-column left">
 		<div class="matrjoska">
 			<h3>Important Dates</h3>
-			<ul>
-				<li><strong>Paper submission: March 26, 2017.</strong></li>
-				<li>Notification to authors: April 21, 2017.</li>
-				<li>Early bird registration: April 28, 2017.</li>
-				<li>Camera-ready deadline: May 2, 2017.</li>
-				<li>Conference: May 29&ndash;31, 2017.</li>
-			</ul>
+			<?php include("parts/important-dates.php"); ?>
 			<h3>Workshops</h3>
 			<ul>
 				<li><a href="https://sites.google.com/view/socialmt/" target="_blank">Social Media and User Generated Content Machine Translation</a>: 31&nbsp;May</li>
