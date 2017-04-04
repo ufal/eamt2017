@@ -7,7 +7,7 @@ function approx($czk){
 }
 // TODO: změnit datum
 $lateDate = "28.4.2017";
-$lateEndDate = "28.5.2017";
+$lateEndDate = "21.5.2017";
 $onsiteDate = "28.5.2017";
 $earlyDisabled = time() < strtotime($lateDate) ? "" : ' class="disabled"';
 $lateDisabled = time() < strtotime($lateEndDate) && time() > strtotime($lateDate) ? "" : ' class="disabled"';
@@ -29,7 +29,7 @@ $onsiteDisabled = time() > strtotime($onsiteDate) ? "" : ' class="disabled"';
 		<tr>
 			<th></th>
 			<th>Early (until April 28)</th>
-			<th>Late (until XXX)</th>
+			<th>Late (until May 21)</th>
 			<th>On-site</th>
 		</tr>
 	</thead>
