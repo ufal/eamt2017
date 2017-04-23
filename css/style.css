@@ -13,6 +13,9 @@ body {
   font-weight: 400;
   color: #292f36;
 }
+.center {
+  text-align: center;
+}
 .full-column,
 .column {
   margin: 0.5em auto;
@@ -170,6 +173,9 @@ header.main h2 .background {
   background-color: #f9f0bd;
   padding: 8px;
   line-height: 1.42857143;
+}
+.sponsors {
+  margin-bottom: 2em;
 }
 footer {
   height: 2.5em;
