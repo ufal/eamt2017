@@ -24,7 +24,7 @@ include("header.html");
 </a>
 </section>
 <section class="sponsors">
-<h3>Bronze Sponsor</h3>
+<h3>Also sponsored by</h3>
 <p>Charles University</p>
 <a href="http://www.cuni.cz/" title="Charles University" style="margin-top: 3em;">
 <img height="150" src="img/sponsors/uk.png" alt="Charles University logo">
