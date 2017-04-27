@@ -88,7 +88,7 @@ include("header.html");
         </li>
     </ul>
     <p>
-        Participants can find suitable accommodation also on <a href="http://www.czechsite.com">www.czechsite.com</a> or <a href="http://www.abaka.com">www.abaka.com</a>
+        Participants can find suitable accommodation also on <a href="http://www.czechsite.com">www.czechsite.com</a>.
     </p>
 
 
