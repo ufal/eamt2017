@@ -30,7 +30,7 @@ include("header.html");
     </p>
 
     <p>
-        <table>
+        <table style="margin:0 auto">
             <tr>
                 <td>
                     <a href="img/mff1w.jpg"><img src="img/mff1t.jpg" alt="MFF UK building" />
@@ -38,6 +38,10 @@ include("header.html");
                 </td>
                 <td>
                     <a href="img/mik1w.jpg"><img src="img/mik1t.jpg" alt="St. Nicholas Church" />
+                    </a>
+                </td>
+                <td>
+                    <a href="img/mala-strana-seznam-3d.jpg"><img src="img/mala-strana-seznam-3d-thumbnail.jpg" alt="St. Nicholas Church" />
                     </a>
                 </td>
             </tr>
@@ -50,6 +54,7 @@ include("header.html");
         </li>
         <li><a href="http://www.ms.mff.cuni.cz/tourist/msbuilding.html.en">Map of
 	floors</a>, indicating rooms and departments. We are ÚFAL, located on the fourth floor. Note that, typically of a CS department, the map is 1-indexed while the elevator and speakers of Czech use 0-based indexing.</li>
+        <li>The last picture is a screenshot of 3D view on <a href="https://mapy.cz/zakladni?x=14.40385&y=50.0883&z=18&m3d=1&height=253&yaw=56.89&pitch=-38.8">mapy.cz</a></li>
     </ul>
 
     <h2>Suggested Hotels and Hostels</h2>
