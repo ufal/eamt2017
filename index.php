@@ -18,6 +18,8 @@ include("header.html");
 		<div class="matrjoska">
 			<h3>Important Dates</h3>
 			<?php include("parts/important-dates.php"); ?>
+			<h3>Registration</h3>
+			<p><a href="reg.php">Register now</a></p>
 			<h3>Workshops</h3>
 			<ul>
 				<li><a href="https://sites.google.com/view/socialmt/" target="_blank">Social Media and User Generated Content Machine Translation</a>: 31&nbsp;May</li>
