@@ -1,5 +1,5 @@
 <?php
-$title = "About | EAMT 2017";
+$title = "Venue | EAMT 2017";
 include("header.html");
 ?>
 <div class="column">
