@@ -5,13 +5,14 @@ include("header.html");
 <article>
 <div class="column">
 <header>
-<h1>Final Call for papers</h1>
+<h1>Call for papers</h1>
 <h2>EAMT 2017: The 20th Annual Conference of the European Association for Machine Translation</h2>
 <p>Prague, Czech Republic
 <br>May 29&ndash;31, 2017
 <br><a href="https://ufal.mff.cuni.cz/eamt2017/">https://ufal.mff.cuni.cz/eamt2017/</a></p>
 </header>
-<strong style="background-color:#f9f0bd;padding:4px;">Paper submission deadline extended: April 2, 2017</strong>
+<p><strong>The Call for Papers for EAMT 2017 is now closed. We would like to thank all of the contributors for their proposals.</strong></p>
+<strike>Paper submission deadline extended: April 2, 2017</strike>
 <h2 style="margin-top:20px;">A call to everyone involved with machine translation</h2>
 <p>The European Association for Machine Translation (EAMT) invites everyone interested in machine translation, translation-related tools and resources to participate in this conference &#8213; developers, researchers, users, professional translators and translation/localisation managers: anyone who has a stake in the vision of an information world in which language barriers and issues become less visible to the information consumer. We especially invite researchers to describe the state of the art and demonstrate their cutting-edge results, and institutions and independent MT users to share their experiences.</p>
 </div>
