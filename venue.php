@@ -26,7 +26,7 @@ include("header.html");
 
     <h2>Faculty Building</h2>
     <p>
-        The venue of MT Marathon 2016 (the Computer Science School building, see the left-hand picture below - on the horizon, the Prague Castle (Hradčany) can be seen as well) is in the center of Prague, in the Lesser Town. The building itself has been built in today's shape in the 17th century, and it served as a jesuit monastery. It has a rectangular shape with a small yard in the middle; three wings now belong to the University, and the fourth to the (roman-catholic) church, and in fact it is the largest baroque church in Prague (the right-hand picture).
+        The venue of EAMT 2017 (the Computer Science School building, see the left-hand picture below - on the horizon, the Prague Castle (Hradčany) can be seen as well) is in the center of Prague, in the Lesser Town. The building itself has been built in today's shape in the 17th century, and it served as a jesuit monastery. It has a rectangular shape with a small yard in the middle; three wings now belong to the University, and the fourth to the (roman-catholic) church, and in fact it is the largest baroque church in Prague (the right-hand picture).
     </p>
 
     <p>
