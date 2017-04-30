@@ -24,6 +24,13 @@ include("header.html");
 </a>
 </section>
 <section class="sponsors">
+<h3>Silver Sponsor</h3>
+<p>Star Group</p>
+<a href="https://www.star-group.net/" title="Star Group" style="margin-top: 1em;">
+<img height="137" src="img/sponsors/star.jpg" alt="Star Group logo">
+</a>
+</section>
+<section class="sponsors">
 <h3>Also sponsored by</h3>
 <p>Charles University</p>
 <a href="http://www.cuni.cz/" title="Charles University" style="margin-top: 3em;">
