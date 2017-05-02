@@ -6,9 +6,9 @@ function approx($czk){
 	echo number_format($czk, 0, ",", " ")." CZK (approx ".number_format(round($czk/27), 0, ",", " ")." EUR)";
 }
 // TODO: změnit datum
-$lateDate = "2.5.2017";
-$lateEndDate = "21.5.2017";
-$onsiteDate = "28.5.2017";
+$lateDate = "2.5.2017 23:59";
+$lateEndDate = "21.5.2017 23:59";
+$onsiteDate = "28.5.2017 23:59";
 $earlyDisabled = time() < strtotime($lateDate) ? "" : ' class="disabled"';
 $lateDisabled = time() < strtotime($lateEndDate) && time() > strtotime($lateDate) ? "" : ' class="disabled"';
 $onsiteDisabled = time() > strtotime($onsiteDate) ? "" : ' class="disabled"';
