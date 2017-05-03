@@ -45,10 +45,6 @@ include("header.html");
 </div>
 
 <div class="column">
-	<h2>Call for Papers for EAMT 2017 (Prague, Czech Republic)</h2>
-	<p>The European Association for Machine Translation (EAMT) invites everyone interested in machine translation, translation-related tools and resources to participate in this conference.
-	<br><a href="call-for-papers.php">[more]</a>
-	</p>
 	<h2>Organizers</h2>
 	<p>
 	Institute of Formal and Applied Linguistics <a href="http://ufal.mff.cuni.cz" target="_blank">(ÚFAL)</a><br>
