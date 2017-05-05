@@ -31,6 +31,13 @@ include("header.html");
 </a>
 </section>
 <section class="sponsors">
+<h3>Bronze Sponsor</h3>
+<p>text &amp; form</p>
+<a href="https://www.textform.com/" title="text &amp; form" style="margin-top: 1em;">
+<img height="80" src="img/sponsors/textundform.png" alt="text &amp; form logo">
+</a>
+</section>
+<section class="sponsors">
 <h3>Also sponsored by</h3>
 <p>Charles University</p>
 <a href="http://www.cuni.cz/" title="Charles University" style="margin-top: 3em;">
