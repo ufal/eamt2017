@@ -233,39 +233,48 @@ header.main {
 }
 
 footer {
-	@height: 2.5em;
-	@width: 103/60*@height;
-	@gap: 1em;
-
+	@height: 40px;
 	height: @height;
-	position: relative;
+	line-height: @height;
 
-
-	.footer-copyright {
-		height: @height;
-		line-height: @height;
-		padding-left: 12%; // fix
-		padding-right: 1em;
-
+	.footer-box {
 		background-color: @black;
 		color: @white;
 
 		.rounded-border;
-
-		margin-right: @width + @gap;
 	}
 
-	.footer-logo {
-		position: absolute;
-		top: 0;
-		right: 0;
-		width: @width;
-		height: @height;
+	.footer-left {
+		width: auto;
+    	overflow: hidden;
 
-		img {
-			width: @width;
-			height: @height;
+    	.copyright {
+    		padding-left: 11%;
+    		padding-right: 1em;
+    	}
+	}
+	.footer-right {
+		.footer-logo, .footer-box {
+			display: inline-block;
+			margin-right: 1em;
 		}
-		// display: inline-block;
+		float: right;
+		width: 620px;
+		text-align:right;
+
+		.sponsored-by {
+			padding: 0 1em;
+		}
+
+		.footer-logo {
+			.valign {
+				display: inline-block;
+				height: 100%;
+				vertical-align: middle;
+			}
+			img {
+				vertical-align: middle;
+			}
+		}
 	}
 }

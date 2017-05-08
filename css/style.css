@@ -183,27 +183,40 @@ header.main h2 .background {
   margin-bottom: 0.5em;
 }
 footer {
-  height: 2.5em;
-  position: relative;
+  height: 40px;
+  line-height: 40px;
 }
-footer .footer-copyright {
-  height: 2.5em;
-  line-height: 2.5em;
-  padding-left: 12%;
-  padding-right: 1em;
+footer .footer-box {
   background-color: #292f36;
   color: #ffffff;
   border-radius: 0.3em;
-  margin-right: 5.29166667em;
 }
-footer .footer-logo {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 4.29166667em;
-  height: 2.5em;
+footer .footer-left {
+  width: auto;
+  overflow: hidden;
 }
-footer .footer-logo img {
-  width: 4.29166667em;
-  height: 2.5em;
+footer .footer-left .copyright {
+  padding-left: 11%;
+  padding-right: 1em;
+}
+footer .footer-right {
+  float: right;
+  width: 620px;
+  text-align: right;
+}
+footer .footer-right .footer-logo,
+footer .footer-right .footer-box {
+  display: inline-block;
+  margin-right: 1em;
+}
+footer .footer-right .sponsored-by {
+  padding: 0 1em;
+}
+footer .footer-right .footer-logo .valign {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+footer .footer-right .footer-logo img {
+  vertical-align: middle;
 }
