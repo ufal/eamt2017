@@ -28,15 +28,27 @@ Room S9</p>
 </div>
 
 <div class="column">
-<table border=1>
+<table class="program-table">
 	<?php
 	foreach ($table as $row) {
 		echo "<tr>";
 		foreach ($row as $cell) {
+			$onlyTime = preg_match('/^\d?\d:\d\d/', $cell) === 1;
+
 			$colspan = "";
-			if(count($row) == 1)
-				$colspan = " colspan=2";
-			echo "<td$colspan>$cell</td>";
+			if(count($row) == 1 && !$onlyTime)
+				$colspan = " colspan='2' class='date'";
+
+			$class = "";
+			if($onlyTime)
+				$class = " class='time'";
+				
+			$cell = nl2br($cell);
+			echo "<td$colspan$class>$cell</td>";
+
+			// fix pro prázdné řádky :(
+			if(count($row) == 1 && $onlyTime)
+				echo "<td></td>";
 		}
 		echo "</tr>";
 	}

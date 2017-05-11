@@ -198,17 +198,6 @@ header.main {
 }
 
 .prices {
-	margin: 1em;
-	border-spacing: 0;
-	border-collapse: collapse;
-	thead th {
-		border-top: 0;
-	}
-	td, th {
-		padding: 8px;
-		line-height: 1.42857143;
-		border-top: 1px solid #ddd;
-	}
 	.member-price {
 		background-color: @bgSand;
 	}
@@ -230,6 +219,28 @@ header.main {
 	text-indent:-2em;
 	padding-left:2em;
 	margin-bottom: 0.5em;
+}
+
+table {
+	border-spacing: 0;
+	border-collapse: collapse;
+	thead th {
+		border-top: 0;
+	}
+	td, th {
+		padding: 8px;
+		line-height: 1.42857143;
+		border-top: 1px solid #ddd;
+	}
+}
+
+.program-table {
+	.date {
+		background-color: @bgSand;
+	}
+	.time {
+		font-weight: bold;
+	}
 }
 
 footer {
