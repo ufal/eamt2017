@@ -19,7 +19,10 @@ João Graça, CTO and co-founder of Unbabel (Lisboa, Portugal)<br>
 <p><strong>General programme</strong><br>
 The programme will include oral presentations and poster sessions. Accepted papers may be assigned to an oral or poster session, but no differentiation will be made in the conference proceedings.</p>
 
-The winner of the EAMT Best Thesis Award 2017 will present his work.
+<p><strong>Best Thesis Award</strong><br>
+José Guilherme Carmargo de Souza<br>
+Adaptive Quality Estimation for Machine Translation and Automatic Speech Recognition</>
+<p>The winner of the EAMT Best Thesis Award 2017 will present his work.</p>
 
 <p><strong>EAMT General Assembly</strong><br>
 Everyone is invited to the annual General Assembly of the European Association for Machine Translation. But if you really want to take part in the future of the EAMT should, become a member: <a href="http://www.eamt.org/membership.php">http://www.eamt.org/membership.php</a>.</p>
