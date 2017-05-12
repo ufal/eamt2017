@@ -65,13 +65,34 @@ Everyone is invited to the annual General Assembly of the European Association f
     <li><span class="authors"><span>Pierrette Bouillon, Johanna Gerlach, Hervé Spechbach, Nikos Tsourakis and Sonia Halimi</span>. </span><span class="title">BabelDr vs Google Translate: a user study at Geneva  University  Hospitals (HUG)</span></li>
     <li><span class="authors"><span>Rei Miyata and Atsushi Fujita</span>. </span><span class="title">Dissecting Human Pre-Editing Toward Better Use of Off-the-Shelf Machine Translation Systems</span></li>
     <li><span class="authors"><span>Joachim Van Den Bogaert, Bram Vandewalle and Roko Mijic</span>. </span><span class="title">Bootstrapping Quality Estimation  in a live production environment</span></li>
-    <li><span class="authors"><span>Tewodros Abebe and Michael Gasser</span>. </span><span class="title">A translation-based approach to the learning of the morphology of an under-resourced language</span></li>
     <li><span class="authors"><span>Adrià Martín-Mor, Gökhan Doğru and Sergio Ortiz</span>. </span><span class="title">MTradumàtica: Free Statistical Machine Translation Customisation for Translators</span></li>
     <li><span class="authors"><span>Lucia Comparin and Sara Mendes</span>. </span><span class="title">Using error annotation to evaluate machine translation and human post-editing in a business environment</span></li>
     <li><span class="authors"><span>Pat Nagle, Riccardo Superbo, Laura Casanellas, Dimitar Shterionov and Tony O'Dowd</span>. </span><span class="title">Empirical evaluation of NMT and PBSMT quality for large-scale translation production.</span></li>
     <li><span class="authors"><span>Pavel Levin, Nishikant Dhanuka and Maxim Khalilov</span>. </span><span class="title">Machine Translation at Booking.com: Journey and Lessons Learned</span></li>
     <li><span class="authors"><span>Nicola Bertoldi, Roldano Cattoni, Mauro Cettolo, Mohammad Amin Farajian, Marcello Federico, Davide Caroselli, Luca Mastrostefano, Marco Trombetti, Ulrich Germann and David Madl</span>. </span><span class="title">AnonymizedSystemName: New Open Source MT for the Translation Industry</span></li>
     <li><span class="authors"><span>Dimitra Kalantzi</span>. </span><span class="title">MT implementation for professional translators: Preliminary issues and challenges</span></li>
+</ul>
+
+<p><strong>Accepted Project and Product Papers</strong></p>
+<ul class="papers">
+    <li><span class="authors"><span>Pierrette Bouillon, Paula Estrella, Roxana Lafuente and Sabrina Girletti</span>. </span>MTTT – Machine Translation Training Tool: A tool to teach MT, Evaluation and Post-editing</li>
+    <li><span class="authors"><span>Vincent Vandeghinste, Tom Vanallemeersch, Liesbeth Augustinus, Frank Van Eynde, Joris Pelemans, Lyan Verwimp, Patrick Wambacq, Geert Heyman, Marie-Francine Moens, Iulianna van der Lek-Ciudin, Frieda Steurs, Ayla Rigouts Terryn, Els Lefever, Lieve Macken, Sven Coppers, Jan Van Den Bergh, Kris Luyten and Karin Coninx</span>. </span>SCATE - Smart Computer-Aided Translation Environment - Year 3</li>
+    <li><span class="authors"><span>Nadira Hofmann</span>. </span>TM &amp; MT – a happy couple […or how to calculate the potential benefit]</li>
+    <li><span class="authors"><span>Gary Evans, Alexander Ferrein and Winfried Kock</span>. </span>Towards Deploying CAT Tools in University Classesfor Improving Foreign Language Aquisition</li>
+    <li><span class="authors"><span>Josep Crego, Guillaume Klein, Jean Senellart, Yoon Kim, Yuntian Deng and Alexander M. Rush</span>. </span>OpenNMT: An Open-source Toolkit for Neural Machine Translation</li>
+    <li><span class="authors"><span>Alex Helle and Manuel Herranz</span>. </span>ActivaTM: A New Approach to Improve The Translation Memory Retrieval Process</li>
+    <li><span class="authors"><span>Celia Rico</span>. </span>IN-MIGRA2-CM. Why the Third Social Sector does Matter to MT</li>
+    <li><span class="authors"><span>Yu Gong and Demin Yan</span>. </span>A Tool Set to Integrate OpenNMT into Production Workflow</li>
+    <li><span class="authors"><span>Michael Gasser</span>. </span>Minimal Dependency Translation</li>
+    <li><span class="authors"><span>Rico Sennrich, Antonio Valerio Miceli Barone, Joss Moorkens, Sheila Castilho, Andy Way, Federico Gaspari, Valia Kordoni, Markus Egg, Maja Popovic, Yota Georgakopoulou, Maria Gialama and Menno van Zaanen</span>. </span>TraMOOC - Translation for Massive Open Online Courses: Recent Developments in Machine Translation</li>
+    <li><span class="authors"><span>Luchezar Jackov</span>. </span>SkyCode MT – a translation system using deep syntactic and semantic analysis</li>
+    <li><span class="authors">Ulrich Germann. </span>Progress in ModernMT, a New Open-Source Machine Translation Platform for the Translation Industry</li>
+    <li><span class="authors"><span>Julia Epiphantseva</span>. </span>PROMT Machine Translation for Amadeus Fare Quote Notes Translator</li>
+    <li><span class="authors"><span>Antonio Toral, Víctor Manuel Sánchez-Cartagena and Mikel Forcada</span>. </span>Final Results of Abu-MaTran (Automatic building of Machine Translation)</li>
+    <li><span class="authors"><span>Christian Federmann</span>. </span>Appraise on Azure: A cloud-based, multi-purpose evaluation framework</li>
+    <li><span class="authors"><span>Fatiha Sadat</span>. </span>Cross-lingual Social Media Analysis and Translation – The case of Arabic Tweets</li>
+    <li><span class="authors"><span>Barry Haddow, Alex Fraser, Marion Weller, Alexandra Birch, Ondrej Bojar, Fabienne Braune, Colin Davenport, Matthias Huck, Michal Kaspar, Kvetoslava Kovarikova, Josef Plch, Anita Ramm, Juliane Ried, James Sheary, Ales Tamchyna, Dusan Varis and Phil Williams</span>. </span>HimL : Health in my Language</li>
+    <li><span class="authors"><span>Tewodros Gebreselassie and Michael Gasser</span>. </span>A translation-based approach to the learning of the morphology of an under-resourced language</li>
 </ul>
 </div>
 <?php include("footer.html"); ?>
