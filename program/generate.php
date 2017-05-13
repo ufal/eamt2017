@@ -2,10 +2,14 @@
 $document = "1JPlP7mlX7rb0uA5DtGe_J-B1Ge59dO8ZJze8cKuOsSc";
 $key = "AIzaSyDJOjkBsJe5A3VHPHtAW0N66xfhAcHivL8";
 $range = "Sheet1!A:B";
+echo "requesting google sheet<br>";
 $program = file_get_contents("https://sheets.googleapis.com/v4/spreadsheets/$document/values/$range?key=$key");
 
 $sheetjson = json_decode($program);
 $table = $sheetjson->values;
+
+if($table)
+	echo "generating program<br>";
 
 $generated = "<!-- program generated: ".date("r")." -->\n";
 $generated .= '<table class="program-table">';
@@ -34,3 +38,6 @@ foreach ($table as $row) {
 $generated .= '</table>';
 
 file_put_contents("program.html", $generated);
+
+echo "program complete:<br><br>";
+echo $generated;
