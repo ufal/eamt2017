@@ -26,7 +26,13 @@ Adaptive Quality Estimation for Machine Translation and Automatic Speech Recogni
 
 <p><strong>EAMT General Assembly</strong><br>
 Everyone is invited to the annual General Assembly of the European Association for Machine Translation. But if you really want to take part in the future of the EAMT should, become a member: <a href="http://www.eamt.org/membership.php">http://www.eamt.org/membership.php</a>.</p>
-<p><strong>Schedule</strong><br>
-<?php include("program-table.php"); ?>
+<?php
+if(file_exists("program/program.html")):
+	?>
+		<p><strong>Schedule</strong><br>
+	<?php
+	include("program/program.html");
+endif;
+?>
 </div>
 <?php include("footer.html"); ?>
