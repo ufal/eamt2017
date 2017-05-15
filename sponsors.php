@@ -43,6 +43,14 @@ include("header.html");
 <a href="http://www.cuni.cz/" title="Charles University" style="margin-top: 3em;">
 <img height="150" src="img/sponsors/uk.png" alt="Charles University logo">
 </a>
+<p>Apertium</p>
+<a href="http://www.apertium.org/" title="Apertium" style="margin-top: 2em;">
+<img height="170" src="img/sponsors/apertium.png" alt="Apertium logo">
+</a>
+<p>Prompsit</p>
+<a href="http://www.prompsit.com/" title="Prompsit" style="margin-top: 2em;">
+<img height="88" src="img/sponsors/prompsit.png" alt="Prompsit logo">
+</a>
 </section>
 </div>
 

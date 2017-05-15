@@ -206,13 +206,12 @@ footer .footer-left .copyright {
 }
 footer .footer-right {
   float: right;
-  width: 680px;
   text-align: right;
 }
 footer .footer-right .footer-logo,
 footer .footer-right .footer-box {
   display: inline-block;
-  margin-right: 1em;
+  margin-right: 10px;
 }
 footer .footer-right .sponsored-by {
   padding: 0 1em;
