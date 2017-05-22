@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Program</title>
-	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto:700,400,100&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 	<link href='css/style.css' rel='stylesheet' type='text/css'>
 	<style>
 	@page  

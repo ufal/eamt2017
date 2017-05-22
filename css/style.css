@@ -4,8 +4,15 @@
 .regular {
   font-weight: 400;
 }
+.bold {
+  font-weight: 700;
+}
 strike {
   color: #777;
+}
+strong,
+b {
+  font-weight: 700;
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -185,7 +192,7 @@ table th {
   background-color: #f9f0bd;
 }
 .program-table .time {
-  font-weight: bold;
+  font-weight: 700;
 }
 footer {
   height: 40px;

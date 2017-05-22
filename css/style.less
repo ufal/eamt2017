@@ -15,8 +15,16 @@
 	font-weight: 400;
 }
 
+.bold {
+	font-weight: 700;
+}
+
 strike {
 	color: #777;
+}
+
+strong, b {
+	.bold;
 }
 
 body {
@@ -239,7 +247,7 @@ table {
 		background-color: @bgSand;
 	}
 	.time {
-		font-weight: bold;
+		.bold;
 	}
 }
 
