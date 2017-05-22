@@ -52,6 +52,13 @@ include("header.html");
 <img height="88" src="img/sponsors/prompsit.png" alt="Prompsit logo">
 </a>
 </section>
+<section class="sponsors">
+<h3>Sponsor of the best paper award</h3>
+<p>Springer</p>
+<a href="http://www.springer.com/" title="Springer" style="margin-top: 3em;">
+<img height="60" src="img/sponsors/springer.png" alt="Springer logo">
+</a>
+</section>
 </div>
 
 </article>
