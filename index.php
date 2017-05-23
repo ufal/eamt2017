@@ -19,7 +19,8 @@ include("header.html");
 			<h3>Important Dates</h3>
 			<?php include("parts/important-dates.php"); ?>
 			<h3>Registration</h3>
-			<p><a href="reg.php">Register now</a></p>
+			<p>Online registration is now closed but you can still register at the venue on the day of the event. Payment on site is possible in cash only, both currencies - CZK and EUR - are acceptable.</p>
+			<p><a href="reg.php">On-site registration prices</a></p>
 			<h3>Workshops</h3>
 			<ul>
 				<li><a href="https://sites.google.com/view/socialmt/" target="_blank">Social Media and User Generated Content Machine Translation</a>: 31&nbsp;May</li>

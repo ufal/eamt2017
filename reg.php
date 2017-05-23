@@ -82,7 +82,6 @@ $onsiteDisabled = time() > strtotime($onsiteDate) ? "" : ' class="disabled"';
 	</table>
 
 	<h2>Registration</h2>
-	<br>
-	<a href="https://ufal.mff.cuni.cz/eamt2017/registration/">Continue to the registration form</a>.
+	<p>Online registration is now closed but you can still register at the venue on the day of the event. Payment on site is possible in cash only, both currencies - CZK and EUR - are acceptable.</p>
 </div>
 <?php include("footer.html"); ?>
