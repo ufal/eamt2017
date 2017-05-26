@@ -15,6 +15,9 @@ include("header.html");
     <h2>Annotated Google Map</h2>
     <iframe src="https://www.google.com/maps/d/embed?mid=1GeFHE4Dn15il0ZLI4-nwVPoCvaw" width="640" height="480"></iframe>
 
+    <p><a href="https://www.google.com/maps/d/viewer?mid=1fDP312OFSZpT_gUHEljtR1f3AzI&ll=50.07751618801436%2C14.409340899999961&z=14">Google Map from your conference bag</a>: Brewery and Banquet locations highlighted.</p>
+    
+
     <a name="building"></a>
     <h2>Venue Address</h2>
 
