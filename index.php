@@ -16,8 +16,8 @@ include("header.html");
 <div class="column infobox" id="templates">
 	<div class="half-column left">
 		<div class="matrjoska">
-			<h3>Important Dates</h3>
-			<?php include("parts/important-dates.php"); ?>
+			<h3>Program</h3>
+			<p><a href="program.php">View full conference program here</a></p>
 			<h3>Registration</h3>
 			<p>Online registration is now closed but you can still register at the venue on the day of the event. Payment on site is possible in cash only, both currencies - CZK and EUR - are acceptable.</p>
 			<p><a href="reg.php">On-site registration prices</a></p>
