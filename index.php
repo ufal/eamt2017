@@ -18,9 +18,9 @@ include("header.html");
 		<div class="matrjoska">
 			<h3>Program</h3>
 			<p><a href="program.php">View full conference program here</a></p>
-			<h3>Registration</h3>
-			<p>Online registration is now closed but you can still register at the venue on the day of the event. Payment on site is possible in cash only, both currencies - CZK and EUR - are acceptable.</p>
-			<p><a href="reg.php">On-site registration prices</a></p>
+			<ul>
+				<li>Proceedings for <a href="https://ufal.mff.cuni.cz/pbml/108">EAMT 2017 Research Papers: PBML 108</a></li>
+			</ul>
 			<h3>Workshops</h3>
 			<ul>
 				<li><a href="https://sites.google.com/view/socialmt/" target="_blank">Social Media and User Generated Content Machine Translation</a>: 31&nbsp;May</li>
@@ -28,18 +28,7 @@ include("header.html");
 		</div>
 	</div><div class="half-column right">
 		<div class="matrjoska">
-			<h4>Research Paper Template</h4>
-			<ul>
-        <li><a href="https://www.overleaf.com/read/jgvrjmrqnwct">Overleaf Project to Clone</a></li>
-				<li><a href="http://ufal.mff.cuni.cz/pbml/pbml-5_0-flat.zip">PBML XeLaTeX Style</a></li>
-			</ul>
-
-			<h4>User/Project/Product Paper Template</h4>
-			<ul>
-        <li><a href="https://www.overleaf.com/read/hjvtmxnjkpqt">Overleaf Project to Clone</a></li>
-				<li><a href="files/templates/eamt17.zip">LaTeX</a></li>
-				<li><a href="files/templates/eamt17.doc">MS Word</a></li>
-			</ul>
+			<!-- right side -->
 		</div>
 	</div>
 	<div class="clear"></div>
