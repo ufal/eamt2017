@@ -11,48 +11,48 @@ include("header.html");
 <br>May 29 to 31, 2017
 <br><a href="https://ufal.mff.cuni.cz/eamt2017/">https://ufal.mff.cuni.cz/eamt2017/</a></p>
 </header>
+</div>
 
-<div class="column">
+<div class="column gallery">
 	<?php 
-	var_dump(scandir("."));
-	var_dump(scandir("../eamt2017-photos"));
-	?>
-<?php
+	$photosDirectory = "../eamt2017-photos";
+	$thumbnailsDirectory = "../eamt2017-photos/thumbnails";
 
-/* Displays details of GD support on your server */
+	$thumbnail_height = 192;
 
-echo '<div style="margin: 10px;">';
+	$photos = array_diff(scandir($photosDirectory), array('..', '.'));
 
-echo '<p style="color: #444444; font-size: 130%;">GD is ';
+	if(!is_dir($thumbnailsDirectory))
+		mkdir($thumbnailsDirectory);
 
-if (function_exists("gd_info")) {
+	foreach ($photos as $photo) {
+		$photoSrc = $photosDirectory . "/" . $photo;
+		$thumbSrc = $thumbnailsDirectory . "/" . $photo;
+		if(is_dir($photoSrc))
+			continue;
 
-	echo '<span style="color: #00AA00; font-weight: bold;">supported</span> by your server!</p>';
+		if(!is_file($thumbSrc)){
+			// https://davidwalsh.name/create-image-thumbnail-php
+			/* read the source image */
+			$source_image = imagecreatefromjpeg($photoSrc);
+			$width = imagesx($source_image);
+			$height = imagesy($source_image);
+			
+			/* find the "desired height" of this thumbnail, relative to the desired width  */
+			$thumbnail_width = floor($width * ($thumbnail_height / $height));
+			// $thumbnail_height = floor($height * ($thumbnail_width / $width));
+			
+			/* create a new, "virtual" image */
+			$virtual_image = imagecreatetruecolor($thumbnail_width, $thumbnail_height);
+			
+			/* copy source image at a resized size */
+			imagecopyresampled($virtual_image, $source_image, 0, 0, 0, 0, $thumbnail_width, $thumbnail_height, $width, $height);
+			
+			/* create the physical thumbnail image to its destination */
+			imagejpeg($virtual_image, $thumbSrc);
+		}
 
-	$gd = gd_info();
-        
-	foreach ($gd as $k => $v) {
-
-		echo '<div style="width: 340px; border-bottom: 1px solid #DDDDDD; padding: 2px;">';
-		echo '<span style="float: left;width: 300px;">' . $k . '</span> ';
-
-		if ($v)
-			echo '<span style="color: #00AA00; font-weight: bold;">Yes</span>';
-		else
-			echo '<span style="color: #EE0000; font-weight: bold;">No</span>';
-
-		echo '<div style="clear:both;"><!-- --></div></div>';
+		?><a href="photos/<?=$photo?>" class="image-holder" target="_blank"><img src="photos/thumbnails/<?=$photo?>" alt="<?=$photo?>"></a><?php
 	}
-
-} else {
-
-	echo '<span style="color: #EE0000; font-weight: bold;">not supported</span> by your server!</p>';
-
-}
-
-echo '<p>by <a href="http://www.dagondesign.com">dagondesign.com</a></p>';
-
-echo '</div>';
-
-?>
+	?>
 </div>
