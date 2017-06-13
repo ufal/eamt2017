@@ -12,7 +12,9 @@ include("header.html");
 <br><a href="https://ufal.mff.cuni.cz/eamt2017/">https://ufal.mff.cuni.cz/eamt2017/</a></p>
 </header>
 </div>
-
+<div class="column">
+	<p><a href="https://goo.gl/photos/Ve4gUeCuKVMqAhmn9" target="_blank">Videos from best thesis and papers awards</a> thanks to Eleftherios Avramidis.</p>
+</div>
 <div class="column gallery">
 	<?php 
 	$photosDirectory = "../eamt2017-photos";
