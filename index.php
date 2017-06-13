@@ -20,6 +20,7 @@ include("header.html");
 			<p><a href="program.php">View full conference program here</a></p>
 			<ul>
 				<li>Proceedings for <a href="https://ufal.mff.cuni.cz/pbml/108">EAMT 2017 Research Papers: PBML 108</a></li>
+				<li>Proceedings for <a href="user-project-product-papers/Conference_Booklet_EAMT2017.pdf">EAMT 2017 User Studies and Project/Product Descriptions</a></li>
 			</ul>
 			<h3>Workshops</h3>
 			<ul>
