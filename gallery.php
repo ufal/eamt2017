@@ -1,5 +1,5 @@
 <?php
-$title = "Program | EAMT 2017";
+$title = "Gallery | EAMT 2017";
 include("header.html");
 ?>
 
